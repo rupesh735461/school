@@ -1,0 +1,213 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 200px;
+    background-color: antiquewhite;
+}
+a{
+    text-decoration: none;
+}
+.header img{
+    height: 150px;
+    width: 150px;
+}
+#pages{
+    display: flex;
+    column-gap: 40px;
+    font-size: 110%;
+    font-weight: 700;
+    
+}
+.header button{
+    background-color: red;
+    font-weight: bold;
+    padding:15px 25px;
+    border-radius: 20px;
+    letter-spacing: 2px;
+}
+.one img{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+.two{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-top: 80px;
+}
+.two img{
+    width: 50px;
+    height: 50px;
+
+}
+.three h1{
+    font-size: 1500%;
+    text-align: center;
+    color: whitesmoke;
+}
+.three h2{
+    text-align: center;
+    font-size: 300%;
+    padding:0px 30%;
+    justify-content: center;
+    background: radial-gradient(blue,red);
+    color: transparent;
+    background-clip: text;
+}
+.three p{
+    text-align: center;
+    padding: 20px 27%;
+    font-size: 20px;
+}
+.main1{
+    background-color: rgba(255, 228, 196, 0.763);
+}
+.four{
+
+    width: 100%;
+    height: 800px;
+    background-color: seashell;
+}
+.four1{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+.four1 img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%; 
+}
+.four11{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.four11 h3{
+    background: radial-gradient(blue, red);
+    color: transparent;
+    background-clip: text;
+}
+.img{
+    transition: transform 2s ;
+}
+.img:hover{
+    transform: rotateY(360deg);
+}
+.four1 h2{
+    background: linear-gradient(yellow,blue);
+    color: transparent;
+    background-clip: text;
+}
+.five{
+    width: 100%;
+    height: 130vh;
+    background-color: rgba(177, 249, 218, 0.763);
+}
+.five1{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 30px;
+    background: linear-gradient(rgb(255, 234, 0) ,rgb(128, 0, 0),blue);
+    color: transparent;
+    background-clip: text;
+    row-gap: 20px;
+}
+
+.card1{
+    width: 25%;
+    height: 80vh;
+    background-color: antiquewhite;
+    border-radius: 20px;
+    border: 2px dotted black;
+}
+.card11{
+    width: 100%;
+    height: 50%;
+
+}
+.five2-card{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.card11 img{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+.text1{
+    padding: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    row-gap: 20px;
+   
+}
+.text1 h3{
+    font-size: 25px;
+}
+.two2 button{
+    padding: 12px 50px 12px 50px;
+    border-radius: 30px;
+}
+.six{
+    width: 100%;
+    height: 100vh;
+    background: url("https://aforapple-theme.myshopify.com/cdn/shop/files/Rectangle_45217_8ecaf340-97a4-402e-8909-acc0415586cc.jpg?v=1710576952&width=2000");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    row-gap: 50px;
+}
+.six h3{
+    text-align: center;
+    color: white;
+    font-size:4.5vw;
+    background: radial-gradient(orange,white);
+    color: transparent;
+    background-clip: text;
+    
+}
+.six p{
+    padding-left: 20%;
+    padding-right: 20%;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    background: linear-gradient(white,rgb(248, 69, 236));
+    color: transparent;
+    background-clip: text;
+}
+.six button{
+    font-size: 20px;
+    padding: 12px 50px 12px 50px;
+    background-color: rgb(255, 133, 153);
+    color: whitesmoke;
+    letter-spacing: 3px;
+    border-radius: 30px;
+    border: none;
+    font-weight: 600;
+}
+.six img:hover{
+    transform: scale(1.5)
+}
